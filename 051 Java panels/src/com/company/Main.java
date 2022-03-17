@@ -16,7 +16,7 @@ public class Main {
         label.setIcon(icon);
         //label.setVerticalAlignment(JLabel.BOTTOM);
         //label.setHorizontalAlignment(JLabel.LEFT);
-        label.setBounds(80, 80, 200, 120); //relative to the component that it's within - label/frame
+        label.setBounds(80, 80, 200, 120); //relative to the component that it's within - panel/frame
 
         JPanel redPanel = new JPanel();
         redPanel.setBackground(Color.red);

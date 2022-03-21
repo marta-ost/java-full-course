@@ -58,7 +58,7 @@ public class MyFrame extends JFrame implements KeyListener {
             case 38:
                 label.setLocation(label.getX(), label.getY() - 10); //will go up when we click on the up arrow
                 break;                                                 //which has a code 38
-            case 39: 
+            case 39:
                 label.setLocation(label.getX() + 10, label.getY()); //will go right when we click on the right arrow
                 break;                                                 //which has a code 39
             case 40:
